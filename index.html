@@ -9,20 +9,36 @@
 <body>
   <h1> Triangle Type Finder </h1>
   <div id = "images">
-    <marquee behavior="alternate" hspace="">
-                    <img src = "eq.jpg">
-                    <img src = "iso.jpg">
-                    <img src = "sca.jpg">
-    </marquee>
+                    <marquee behavior="alternate" hspace="">
+                                    <img src = "eq.jpg">
+                                    <img src = "iso.jpg">
+                                    <img src = "sca.jpg">
+                    </marquee>
   </div>
+
    <br>
    <br>
+   <br>
+<p id="result"> <blink></blink><p>
+   <div id="values">
+             <p><em>Enter values for the three sides of a triangle.</em></p>
+             <br>
+             <p> Enter value for side one </p>
+             <input type="number" id="side1"></input>
+             <br>
+             <p> Enter value for side two </p>
+             <br>
+             <input type="number" id="side2"></input>
+             <p> Enter value for side three </p>
+             <input type="number" id="side3"></input>
+             <br>
+   </div>
    <br>
 
-   <button id="check" type="submit" onclick="triangle();">Click To Enter 3 Sides of a triangle </button>
-
-   <br><br><br>
-   <p id="result"><p>
+   <button id="check" type="submit" onclick="triangle();">Click To Check Triangle type </button>
+   <!-- <input type="text" id="result" value="RESULT"> </input> -->
+   <br>
+  <!-- <blink> <p id="resu">jhgfghj<p></blink> -->
 
 </body>
 </html>

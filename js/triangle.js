@@ -1,9 +1,9 @@
 function triangle(){
 var sides = []
 
-sides.push(parseInt(prompt("enter first side")));
-sides.push(parseInt(prompt("enter second side")));
-sides.push(parseInt(prompt("enter third side")));
+sides.push(document.getElementById('side1').value);
+sides.push(document.getElementById('side2').value);
+sides.push(document.getElementById('side3').value);
 
 
 
